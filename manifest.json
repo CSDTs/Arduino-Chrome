@@ -1,0 +1,12 @@
+{
+	"name": "CSDT Serial Communication",
+	"description": "RPI CSDT Arduino serial communication and visualizer app",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	}, 
+	"permissions": ["serial"]
+}
